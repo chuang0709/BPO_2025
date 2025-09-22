@@ -1,0 +1,43 @@
+{
+  "variant_probs": {
+    "('emergency_patient', 'ER_treatment', 'nursing', 'releasing')": 0.14913221836541496,
+    "('emergency_patient', 'ER_treatment', 'releasing')": 0.2050489113284948,
+    "('patient_referal', 'time_for_intake', 'intake', 'nursing', 'releasing')": 0.32363521615651625,
+    "('patient_referal', 'time_for_intake', 'intake', 'surgery', 'nursing', 'releasing')": 0.19785421268538972,
+    "('emergency_patient', 'ER_treatment', 'surgery', 'nursing', 'releasing')": 0.04941621962764279,
+    "('patient_referal', 'time_for_intake', 'intake', 'nursing', 'nursing', 'releasing')": 0.0027769012306721364,
+    "('patient_referal', 'time_for_intake', 'intake', 'surgery', 'nursing', 'surgery')": 0.00012622278321236982,
+    "('patient_referal', 'time_for_intake', 'intake', 'surgery', 'nursing', 'surgery', 'nursing', 'releasing')": 0.002903124013884506,
+    "('patient_referal', 'time_for_intake', 'intake', 'nursing')": 0.00012622278321236982,
+    "('emergency_patient', 'ER_treatment', 'surgery', 'nursing', 'surgery', 'nursing', 'releasing')": 0.0008835594824865888,
+    "('emergency_patient', 'ER_treatment', 'nursing', 'nursing', 'releasing')": 0.0005680025244556643,
+    "('patient_referal', 'time_for_intake', 'intake', 'surgery')": 0.01666140738403282,
+    "('patient_referal', 'time_for_intake', 'intake')": 0.04607131587251499,
+    "('patient_referal', 'time_for_intake', 'intake', 'surgery', 'nursing', 'surgery', 'nursing', 'surgery', 'nursing', 'releasing')": 0.00012622278321236982,
+    "('emergency_patient', 'ER_treatment')": 0.0018933417481855476,
+    "('emergency_patient', 'ER_treatment', 'surgery')": 0.0003786683496371095,
+    "('patient_referal',)": 0.002208898706216472,
+    "('emergency_patient',)": 0.00012622278321236982,
+    "('patient_referal', 'time_for_intake', 'intake', 'surgery', 'nursing', 'surgery', 'nursing', 'surgery')": 6.311139160618491e-05
+  },
+  "mean_sec": {
+    "emergency_patient": 0.0,
+    "ER_treatment": 7229.527703619926,
+    "releasing": 0.0,
+    "nursing": 160646.11171869974,
+    "surgery": 10593.124930151816,
+    "patient_referal": 0.0,
+    "time_for_intake": 0.0,
+    "intake": 3607.571485778811
+  },
+  "std_sec": {
+    "emergency_patient": 0.0,
+    "ER_treatment": 1809.7294402196023,
+    "releasing": 0.0,
+    "nursing": 97068.25913723324,
+    "surgery": 5303.282051037672,
+    "patient_referal": 0.0,
+    "time_for_intake": 0.0,
+    "intake": 455.6253781406368
+  }
+}
